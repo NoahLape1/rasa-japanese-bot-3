@@ -69,21 +69,21 @@ responses:
   - text: 私にしつもんを聞いてください。Please ask the questions that are listed on the webpage and try to use keigo.
 ##############################################################################################
   utter_respond_wakeup:
-  - text: すごい、{time}におきます。はやいですね。
+  - text: すごい{name}、{time}におきます。はやいですね。
   utter_respond_breakfast:
-  - text: そうか。{time}にあさごはんをたべます。
+  - text: そうか。{name}は{time}にあさごはんをたべます。
   utter_respond_go_school:
-  - text: そうか。{time}にがっこうにいきます。
+  - text: そうか。{name}は{time}にがっこうにいきます。
   utter_respond_lunch:
-  - text: そうですね。{time}にひるごはんをたべます。
+  - text: そうですね。{name}は{time}にひるごはんをたべます。
   utter_respond_go_home:
-  - text: そうか。{time}にいえにかえります。
+  - text: そうか。{name}は{time}にいえにかえります。
   utter_respond_dinner:
-  - text: そうですね。{time}にぼんごはんをたべます。
+  - text: そうですね。{name}は{time}にぼんごはんをたべます。
   utter_respond_TV:
-  - text: そうですね。{time}にテレビをみます。
+  - text: そうですね。{name}は{time}にテレビをみます。
   utter_respond_sleep:
-  - text: そうか。{time}にねます。
+  - text: そうか。{name}は{time}にねます。
 ##############################################################################################
   utter_question/ask_wakeup:
   - text: わたしはコンピューターです。ねません。

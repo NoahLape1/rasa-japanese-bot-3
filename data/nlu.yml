@@ -116,6 +116,7 @@ nlu:
 - intent: inform_recipient
   examples: |
     - [Leah](recipient)
+    - [Noah](recipient)
     - [Todd](recipient)
     - [Chris](recipient)
     - [Steph](recipient)
