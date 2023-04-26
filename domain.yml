@@ -28,17 +28,17 @@ responses:
   - text: こんにちは! 
   utter_greet:
   - text: はじめまして、 わたしはにほんごのチャットボットです。(。・ω・)ノ
-    image: https://media.tenor.com/ule8gL4rTIgAAAAC/peach-cat-mochi-mochi.gif
+    image: https://tenor.com/view/company-office-employee-friends-animals-gif-17335292456141322623
   utter_goodbye:
   - text: ではまたね。(・ω・)ノ
-    image: https://media.tenor.com/inhg61kTkrwAAAAi/cute.gif
+    image: https://tenor.com/view/company-office-employee-friends-animals-gif-12607086447301735743
   utter_iamabot:
-  - text: ラサのボートです.
+  - text: ラサです.
     image: https://media.tenor.com/arlZrN0YovkAAAAC/robot-smile.gif
   utter_ask_name:
   - text: おなまえは？
   utter_thanks_for_talking:
-  - text: ありがとうございました！
+  - text: ありがとうございます！
   utter_default:
   - text: すみません、わかりません。 Please rephrase your answer.
   utter_askrecipient:
@@ -46,7 +46,7 @@ responses:
   utter_askemail:
   - text: Please enter the email address of the person you want to email.
   utter_askifsendemail:
-  - text: ありがとうございました！しつもんのおわりです。Do you want to send an email of the conversation log to anyone? Please type 'yes' or 'no' in English.
+  - text: ありがとうございました！しつもんはおわりです。Do you want to send an email of the conversation log to anyone? Please type 'yes' or 'no' in English.
 
 ##################################################################################################
   utter_ask_wakeup:
@@ -66,24 +66,24 @@ responses:
   utter_ask_sleep:
   - text: 何時にねますか？
   utter_askme:
-  - text: 私にしつもんを聞いてください。Please ask the questions that are listed on the webpage and try to use keigo.
+  - text: 私にも聞いてください。Please ask the questions that are listed on the webpage.
 ##############################################################################################
   utter_respond_wakeup:
-  - text: すごい{name}、{time}におきます。はやいですね。
+  - text: すごい{name}、{time}におきますか。はやいですね。
   utter_respond_breakfast:
-  - text: そうか。{name}は{time}にあさごはんをたべます。
+  - text: そうですか。{name}は{time}にあさごはんをたべます。
   utter_respond_go_school:
-  - text: そうか。{name}は{time}にがっこうにいきます。
+  - text: そうですか。{name}は{time}にがっこうにいきます。
   utter_respond_lunch:
-  - text: そうですね。{name}は{time}にひるごはんをたべます。
+  - text: そうですか。{name}は{time}にひるごはんをたべます。
   utter_respond_go_home:
-  - text: そうか。{name}は{time}にいえにかえります。
+  - text: そうですか。{name}は{time}にいえにかえります。
   utter_respond_dinner:
-  - text: そうですね。{name}は{time}にぼんごはんをたべます。
+  - text: そうですか。{name}は{time}にばんごはんをたべます。
   utter_respond_TV:
-  - text: そうですね。{name}は{time}にテレビをみます。
+  - text: そうですか。わたしも。
   utter_respond_sleep:
-  - text: そうか。{name}は{time}にねます。
+  - text: そうですか。{name}は{time}にねます。
 ##############################################################################################
   utter_question/ask_wakeup:
   - text: わたしはコンピューターです。ねません。
@@ -94,7 +94,7 @@ responses:
   utter_question/ask_lunch:
   - text: じゅういちじはんにひるごはんをたべます。ピザとアイスクリームをたべます。
   utter_question/ask_go_home:
-  - text: よくご時にいえにかえります。
+  - text: たいていご時にいえにかえります。
   utter_question/ask_dinner:
   - text: まいばんろく時にばんごはんをたべます。ばんごはんはおいしいですよ。
   utter_question/ask_TV:
