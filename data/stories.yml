@@ -33,24 +33,24 @@ stories:
   - action: log_conversation_user
   - action: utter_respond_go_school
   - action: log_conversation_bot
-  - action: utter_ask_lunch
-  - action: log_conversation_bot
-  - intent: inform_lunch
-  - action: log_conversation_user
-  - action: utter_respond_lunch
-  - action: log_conversation_bot
+#  - action: utter_ask_lunch
+#  - action: log_conversation_bot
+#  - intent: inform_lunch
+#  - action: log_conversation_user
+#  - action: utter_respond_lunch
+#  - action: log_conversation_bot
   - action: utter_ask_go_home
   - action: log_conversation_bot
   - intent: inform_go_home
   - action: log_conversation_user
   - action: utter_respond_go_home
   - action: log_conversation_bot
-  - action: utter_ask_dinner
-  - action: log_conversation_bot
-  - intent: inform_dinner
-  - action: log_conversation_user
-  - action: utter_respond_dinner
-  - action: log_conversation_bot
+#  - action: utter_ask_dinner
+#  - action: log_conversation_bot
+#  - intent: inform_dinner
+#  - action: log_conversation_user
+#  - action: utter_respond_dinner
+#  - action: log_conversation_bot
   - action: utter_ask_TV
   - action: log_conversation_bot
   - intent: inform_TV

@@ -73,18 +73,18 @@ rules:
   - action: log_conversation_user
   - action: utter_respond_go_school
   - action: log_conversation_bot
-  - action: utter_ask_lunch
+  - action: utter_ask_go_home
   - action: log_conversation_bot
 
 # Conversation part 4 (high confidence)
-- rule: part 4A
-  steps:
-  - intent: inform_lunch
-  - action: log_conversation_user
-  - action: utter_respond_lunch
-  - action: log_conversation_bot
-  - action: utter_ask_go_home
-  - action: log_conversation_bot
+#- rule: part 4A
+#  steps:
+#  - intent: inform_lunch
+#  - action: log_conversation_user
+#  - action: utter_respond_lunch
+#  - action: log_conversation_bot
+#  - action: utter_ask_go_home
+#  - action: log_conversation_bot
 
 # Conversation part 5 (high confidence)
 - rule: part 5A
@@ -93,18 +93,18 @@ rules:
   - action: log_conversation_user
   - action: utter_respond_go_home
   - action: log_conversation_bot
-  - action: utter_ask_dinner
+  - action: utter_ask_TV
   - action: log_conversation_bot
 
 # Conversation part 6 (high confidence)
-- rule: part 6A
-  steps:
-  - intent: inform_dinner
-  - action: log_conversation_user
-  - action: utter_respond_dinner
-  - action: log_conversation_bot
-  - action: utter_ask_TV
-  - action: log_conversation_bot
+#- rule: part 6A
+#  steps:
+#  - intent: inform_dinner
+#  - action: log_conversation_user
+#  - action: utter_respond_dinner
+#  - action: log_conversation_bot
+#  - action: utter_ask_TV
+#  - action: log_conversation_bot
 
 # Conversation part 7 (high confidence)
 - rule: part 7A

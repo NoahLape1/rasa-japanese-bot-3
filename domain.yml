@@ -28,10 +28,10 @@ responses:
   - text: こんにちは! 
   utter_greet:
   - text: はじめまして、 わたしはにほんごのチャットボットです。(。・ω・)ノ
-    image: https://tenor.com/view/company-office-employee-friends-animals-gif-17335292456141322623
+    image: https://media.tenor.com/8JNUpH3P-X8AAAAi/company-office.gif
   utter_goodbye:
   - text: ではまたね。(・ω・)ノ
-    image: https://tenor.com/view/company-office-employee-friends-animals-gif-12607086447301735743
+    image: https://media.tenor.com/rvVeVCAPtT8AAAAi/company-office.gif
   utter_iamabot:
   - text: ラサです.
     image: https://media.tenor.com/arlZrN0YovkAAAAC/robot-smile.gif
@@ -88,7 +88,7 @@ responses:
   utter_question/ask_wakeup:
   - text: わたしはコンピューターです。ねません。
   utter_question/ask_breakfast:
-  - text: ななじにあさごはんをたべます。ごはんとさかなをたべます。
+  - text: しちじにあさごはんをたべます。ごはんとさかなをたべます。
   utter_question/ask_go_school:
   - text: はち時はんにがっこうにいきます。せんこうはコンピューターです。
   utter_question/ask_lunch:
